@@ -27,4 +27,4 @@ allprojects {
 
 tasks.register("clean", Delete::class) {
     delete(buildDir)
-}
+api 'com.otaliastudios:cameraview:2.7.2'
